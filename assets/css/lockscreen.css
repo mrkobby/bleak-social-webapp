@@ -1,0 +1,23 @@
+.lockscreen{background:#d2d6de}
+.lockscreen-logo{font-size:35px;text-align:center;margin-bottom:25px;font-weight:300}
+.lockscreen-logo a{color:#444}
+.lockscreen-wrapper{max-width:400px;margin:0 auto;margin-top:10%}
+.lockscreen .lockscreen-name{text-align:center;font-weight:600}
+.lockscreen-item{border-radius:4px;padding:0;background:#fff;position:relative;margin:10px auto 30px auto;width:290px}
+.lockscreen-image{border-radius:50%;position:absolute;left:-10px;top:-25px;background:#fff;padding:5px;z-index:10}
+.lockscreen-image>img{border-radius:50%;width:70px;height:70px}
+.lockscreen-credentials{margin-left:70px}
+.lockscreen-credentials .form-control{border:0}
+.lockscreen-credentials .btn{background-color:#fff;border:0;padding:0 10px}
+.lockscreen-footer{margin-top:10px}
+.login-logo,.register-logo{font-size:35px;text-align:center;margin-bottom:25px;font-weight:300}
+.login-logo a,.register-logo a{color:#444}
+.login-page,.register-page{background:#d2d6de}
+.login-box,.register-box{width:360px;margin:7% auto}
+	@media (max-width:768px){
+		.login-box,.register-box{width:90%;margin-top:20px}
+		}
+.login-box-body,.register-box-body{background:#fff;padding:20px;border-top:0;color:#666}
+.login-box-body .form-control-feedback,.register-box-body .form-control-feedback{color:#777}
+.lockscreen-name {text-align: center;font-weight: 600;}
+.help-block {display: block;margin-top: 5px;margin-bottom: 10px;color: #737373;}
